@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<title>Do It Myself</title>
+<link href="../css/diy.css" rel="stylesheet" type="text/css"/>
+<link href="../css/paintslide.css" rel="stylesheet" type="text/css"/>
+</style>
+</head>
+
+<body>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<div class="header">
+	    <input type="text" placeholder="Please type your name" style="text-align:center;font-size:1.6vw;color: #45676e;font-family: Open Sans; background-color:#fdfaf7; border:none;">
+		<p style="font-size:15px; color:#9aa2a1">An <b>Personal Homepage</b> website</p>
+	</div>
+	
+ <div class="nav">
+        <ul>
+            <li><a href="../Homepage.html">Home</a></li>
+            <li><a href="#">My Skills▼</a>
+                <ul>
+                    <li><a href="3d.html">3D Model Creating</a></li>
+                    <li><a href="web.html">Website Design</a></li>
+					<li><a href="an.html">Adobe Animate</a></li>
+
+                </ul>
+            </li>
+            <li><a href="#">My Hobbies▼</a>
+			    <ul>
+                    <li><a href="paint.html">Painting</a></li>
+                    <li><a href="piano.html">Piano</a></li>
+
+                </ul>
+            </li>
+            <li><a href="photo.html">PhotoGraphy</a>
+            </li>
+            <li><a href="#">DIY▼</a>
+			    <ul>
+                    <li><a href="personal.html">Personal Information</a></li>
+                    <li><a href="diy.html">Skill</a></li>
+
+                </ul>
+            </li>
+        </ul>
+    </div>
+	
+	<div class="titlee">
+	<input type="text" placeholder="Please Enter Title" style="  text-align:center;margin-top:9%;font-size:1.6vw;color: #45676e;font-family: Open Sans; background-color:#fdfaf7; border:none;">
+    </div>
+	
+	<div class="intro1">
+	    <input type="text" placeholder="Please Enter Title" style="margin-left:0%;margin-bottom:2%;font-size:1.6vw;color: #45676e;font-family: Open Sans; background-color:#fdfaf7; border:none;">
+		<div class="d">
+	    <div class="mvimg">
+		    <img id="myImg" src="../img/upload.jpg" >
+			<label for="input-file">Update Image</label>
+			<input type="file" accept="image/jpeg, image/png, image/jpg, image/gif" id="input-file">
+		</div>
+		
+		<script>
+		    let profilePic = document.getElementById("myImg");
+			let inputFile = document.getElementById("input-file");
+			
+			inputFile.onchange = function(){
+			    profilePic.src = URL.createObjectURL(inputFile.files[0]);
+			}
+		</script>
+
+		<div class="text1">
+            <input type="text" placeholder="Please Enter Title" style="font-size:1.6vw;font-family: Open Sans;color:#45676e;margin-left:5%;margin-top:9%; border:none; background-color:#fdfaf7;"><br>
+			<textarea name"text"  style=" width:90%; height:40%; font-size:0.9vw;margin-left:5%;margin-right:5%;font-family: Open Sans; border:none; background-color:#fdfaf7;">Please type introduce in here.</textarea>
+			
+		</div>
+		</div>
+        
+		<div class="dd">
+        <div class="text2">
+		   <input type="text" placeholder="Please Enter Title" style="font-size:1.6vw;font-family: Open Sans;color:#45676e;margin-left:5%;margin-top:9%; border:none; background-color:#fdfaf7;"><br>
+			<textarea name"text"  style=" width:90%; height:40%; font-size:0.9vw;margin-left:5%;margin-right:5%;font-family: Open Sans; border:none; background-color:#fdfaf7;">Please type introduce in here.</textarea>
+		</div>
+		<div class="zbimg">
+		    <img id="myImg2" src="../img/upload.jpg">
+			<label for="input-file2">Update Image</label>
+			<input type="file" accept="image/jpeg, image/png, image/jpg, image/gif" id="input-file2">
+                <div id="myModal2" class="modal2">
+                    <span class="close">&times;</span>
+                    <img class="modal-content2" id="img02">
+                    <div id="caption2"></div>
+                </div>
+		</div>
+		</div>
+        
+		<script>
+		    let profilePic2 = document.getElementById("myImg2");
+			let inputFile2 = document.getElementById("input-file2");
+			
+			inputFile2.onchange = function(){
+			    profilePic2.src = URL.createObjectURL(inputFile2.files[0]);
+			}
+		</script>
+		
+		<div class="ddd">
+        <div class="rzimg">
+		    <img id="myImg3" src="../img/upload.jpg">
+			<label for="input-file3">Update Image</label>
+			<input type="file" accept="image/jpeg, image/png, image/jpg, image/gif" id="input-file3">
+                <div id="myModal3" class="modal3">
+                    <span class="close">&times;</span>
+                    <img class="modal-content3" id="img03">
+                    <div id="caption3"></div>
+                </div>
+		</div>
+		<script>
+		    let profilePic3 = document.getElementById("myImg3");
+			let inputFile3 = document.getElementById("input-file3");
+			
+			inputFile3.onchange = function(){
+			    profilePic3.src = URL.createObjectURL(inputFile3.files[0]);
+			}
+		</script>
+		<div class="text3">
+		    <input type="text" placeholder="Please Enter Title" style="font-size:1.6vw;font-family: Open Sans;color:#45676e;margin-left:5%;margin-top:9%; border:none; background-color:#fdfaf7;"><br>
+			<textarea name"text"  style=" width:90%; height:40%; font-size:0.9vw;margin-left:5%;margin-right:5%;font-family: Open Sans; border:none; background-color:#fdfaf7;">Please type introduce in here.</textarea>
+		</div>
+		</div>
+        
+		<div class="dddd">
+        <div class="text4">
+		    <input type="text" placeholder="Please Enter Title" style="font-size:1.6vw;font-family: Open Sans;color:#45676e;margin-left:5%;margin-top:9%; border:none; background-color:#fdfaf7;"><br>
+			<textarea name"text"  style=" width:90%; height:40%; font-size:0.9vw;margin-left:5%;margin-right:5%;font-family: Open Sans; border:none; background-color:#fdfaf7;">Please type introduce in here.</textarea>
+		</div>
+		<div class="maximg">
+		    <img id="myImg4" src="../img/upload.jpg" >
+			<label for="input-file4">Update Image</label>
+			<input type="file" accept="image/jpeg, image/png, image/jpg, image/gif" id="input-file4">
+                <div id="myModal4" class="modal4">
+                    <span class="close">&times;</span>
+                    <img class="modal-content4" id="img04">
+                    <div id="caption4"></div>
+                </div>
+		</div>
+		</div>
+		<script>
+		    let profilePic4 = document.getElementById("myImg4");
+			let inputFile4 = document.getElementById("input-file4");
+			
+			inputFile4.onchange = function(){
+			    profilePic4.src = URL.createObjectURL(inputFile4.files[0]);
+			}
+		</script>
+		
+		<div class="ddddd">
+		<div class="finimg">
+		    <img id="myImg5" src="../img/upload.jpg">
+            <label for="input-file5">Update Image</label>
+			<input type="file" accept="image/jpeg, image/png, image/jpg, image/gif" id="input-file5">
+                <div id="myModal5" class="modal5">
+                    <span class="close">&times;</span>
+                    <img class="modal-content5" id="img05">
+                    <div id="caption5"></div>
+                </div>
+		</div>
+		<script>
+		    let profilePic5 = document.getElementById("myImg5");
+			let inputFile5 = document.getElementById("input-file5");
+			
+			inputFile5.onchange = function(){
+			    profilePic5.src = URL.createObjectURL(inputFile5.files[0]);
+			}
+		</script>
+		
+		<div class="text5">
+		    <input type="text" placeholder="Please Enter Title" style="font-size:1.6vw;font-family: Open Sans;color:#45676e;margin-left:5%;margin-top:9%; border:none; background-color:#fdfaf7;"><br>
+			<textarea name"text"  style=" width:90%; height:40%; font-size:0.9vw;margin-left:5%;margin-right:5%;font-family: Open Sans; border:none; background-color:#fdfaf7;">Please type introduce in here.</textarea>
+		</div>
+		</div>
+		
+		<div class='text6'>
+		    <input type="text" placeholder="Please Enter Summarize for this page" style=" font-size:0.9vw;margin-left:5%;margin-right:5%;margin-top:-1%;font-family: Open Sans;text-align:center; width:100%; height:50%; border:none; background-color:#fdfaf7;">
+		</div>
+	</div>	
+		
+	<div class="footer">
+        <div class="footertext">
+            <p>&#169; 2022 Wan YiXuan Personal Homepage.com</p>
+        </div>
+    </div>		
+		
+		
+		
+		
+<script src="../js/slide.js"></script>	
+<script src="../js/totop.js"></script>	
+<script src="../js/zoom1.js"></script>	
+</body>
+</html>

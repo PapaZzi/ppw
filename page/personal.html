@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<title>Personal Information</title>
+<link href="../css/personal.css" rel="stylesheet" type="text/css"/>
+</style>
+</head>
+
+<body>
+<div class="header">
+	    <input type="text" placeholder="Please type your name" style="text-align:center;font-size:1.6vw;color: #45676e;font-family: Open Sans; background-color:#fdfaf7; border:none;">
+		<p style="font-size:15px; color:#9aa2a1">An <b>Personal Homepage</b> website</p>
+	</div>
+	
+	    <div class="nav">
+        <ul>
+            <li><a href="../Homepage.html">Home</a></li>
+            <li><a href="#">My Skills▼</a>
+                <ul>
+                    <li><a href="3d.html">3D Model Creating</a></li>
+                    <li><a href="web.html">Website Design</a></li>
+					<li><a href="an.html">Adobe Animate</a></li>
+
+                </ul>
+            </li>
+            <li><a href="#">My Hobbies▼</a>
+			    <ul>
+                    <li><a href="paint.html">Painting</a></li>
+                    <li><a href="piano.html">Piano</a></li>
+
+                </ul>
+            </li>
+            <li><a href="photo.html">PhotoGraphy</a>
+            </li>
+            <li><a href="#">DIY▼</a>
+			    <ul>
+                    <li><a href="personal.html">Personal Information</a></li>
+                    <li><a href="diy.html">Skill</a></li>
+
+                </ul>
+            </li>
+        </ul>
+    </div>
+	
+<div class="information1">
+    <div class="face">
+		<img id="myImg" src="../img/upload.jpg" >
+			<label for="input-file">Update Image</label>
+			<input type="file" accept="image/jpeg, image/png, image/jpg, image/gif" id="input-file">
+		
+		
+		<script>
+		    let profilePic = document.getElementById("myImg");
+			let inputFile = document.getElementById("input-file");
+			
+			inputFile.onchange = function(){
+			    profilePic.src = URL.createObjectURL(inputFile.files[0]);
+			}
+		</script>
+	</div>
+	
+	<div class="text1">
+	    <div class="intro">
+	        <input type="text" placeholder="Please Type Information" p style="border:none; background-color:#fdfaf7;font-size:1.6vw; margin-top:-0.2vw; margin-bottom:-10px; width:40vw;"></p>
+		    <input type="text" placeholder="Please Type Information" p style="border:none; background-color:#fdfaf7;font-size:0.9vw; color:#281c17;font-family: Open Sans;width:40vw;"></p>
+		    <input type="text" placeholder="Please Type Information" p style="border:none; background-color:#fdfaf7;font-size:0.9vw; color:#281c17;font-family: Open Sans;width:40vw;"></p>
+		    <input type="text" placeholder="Please Type Information" p style="border:none; background-color:#fdfaf7;font-size:0.9vw; color:#281c17;font-family: Open Sans;width:40vw;"></P>
+		    <input type="text" placeholder="Please Type Information" p style="border:none; background-color:#fdfaf7;font-size:0.9vw; color:#281c17;font-family: Open Sans;width:40vw;"></p>
+		<input type="text" placeholder="Please Type Information" p style="border:none; background-color:#fdfaf7;font-size:0.9vw; color:#281c17;font-family: Open Sans;width:40vw;"></P>
+		</div>
+		
+		<div class="text2">
+		<div class="int1">
+			<P style="font-weight: bold;font-size:1.6vw; color:black;font-family: Open Sans;">Education</P>
+			    <input type="text" placeholder="Please Type Information" p style="border:none; background-color:#fdfaf7;font-size:0.9vw; color:#281c17;font-family: Open Sans;margin-top:-2%;width:20vw;"></P>
+				<input type="text" placeholder="Please Type Information" p style="border:none; background-color:#fdfaf7;font-size:0.9vw; color:#281c17;font-family: Open Sans;width:20vw;"></P>
+				<input type="text" placeholder="Please Type Information" p style="border:none; background-color:#fdfaf7;font-size:0.9vw; color:#281c17;font-family: Open Sans;width:20vw;"></P>
+				<input type="text" placeholder="Please Type Information" p style="border:none; background-color:#fdfaf7;font-size:0.9vw; color:#281c17;font-family: Open Sans;width:20vw;"></P>
+		</div>
+		
+		<div class="int2">
+			    <P style="font-weight: bold;font-size:1.6vw;color:black;font-family: Open Sans;">Software</P>
+				<input type="text" placeholder="Please Type Information" p style="border:none; background-color:#fdfaf7;font-size:0.9vw; color:#281c17;font-family: Open Sans;margin-top:-0.5vw;"></P>
+				<input type="text" placeholder="Please Type Information" p style="border:none; background-color:#fdfaf7;font-size:0.9vw; color:#281c17;font-family: Open Sans;margin-top:-0.5vw;"></P>
+				<input type="text" placeholder="Please Type Information" p style="border:none; background-color:#fdfaf7;font-size:0.9vw; color:#281c17;font-family: Open Sans;margin-top:-0.5vw;"></P>
+				<input type="text" placeholder="Please Type Information" p style="border:none; background-color:#fdfaf7;font-size:0.9vw; color:#281c17;font-family: Open Sans;margin-top:-0.5vw;"></P>
+				<input type="text" placeholder="Please Type Information" p style="border:none; background-color:#fdfaf7;font-size:0.9vw; color:#281c17;font-family: Open Sans;margin-top:-0.5vw;"></P>
+				<input type="text" placeholder="Please Type Information" p style="border:none; background-color:#fdfaf7;font-size:0.9vw; color:#281c17;font-family: Open Sans;margin-top:-0.5vw;"></P>
+			</div>
+			
+			<div class="int3">
+			    <P style="font-weight: bold;font-size:1.6vw;color:black;font-family: Open Sans;">Skills</P>
+				<input type="text" placeholder="Please Type Information" p style="border:none; background-color:#fdfaf7;font-size:0.9vw; color:#281c17;font-family: Open Sans;margin-top:-10%;"></P>
+				<input type="text" placeholder="Please Type Information" p style="border:none; background-color:#fdfaf7;font-size:0.9vw; color:#281c17;font-family: Open Sans;margin-top:-5%;"></P>
+				<input type="text" placeholder="Please Type Information" p style="border:none; background-color:#fdfaf7;font-size:0.9vw; color:#281c17;font-family: Open Sans;margin-top:-5%;"></P>
+				<P style="font-weight: bold;font-size:1.6vw;color:black;font-family: Open Sans;margin-top:-2%;">Interests</P>
+				<input type="text" placeholder="Please Type Information" p style="border:none; background-color:#fdfaf7;font-size:0.9vw; color:#281c17;font-family: Open Sans;margin-top:-10%;"></P>
+				<input type="text" placeholder="Please Type Information" p style="border:none; background-color:#fdfaf7;font-size:0.9vw; color:#281c17;font-family: Open Sans;margin-top:-5%;"></P>
+				<input type="text" placeholder="Please Type Information" p style="border:none; background-color:#fdfaf7;font-size:0.9vw; color:#281c17;font-family: Open Sans;margin-top:-5%;"></P>
+			</div>
+				
+			</div>
+			<div class="icon">
+				<P style=" font-size:1vw; ">Copyright 2022</P>
+	        </div>
+		
+	</div>
+	
+	
+
+
+</div>
+	<div class="footer">
+        <div class="footertext">
+            <p>&#169; 2022 Wan YiXuan Personal Homepage.com</p>
+        </div>
+    </div>
+</body>
+</html>

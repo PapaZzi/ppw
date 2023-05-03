@@ -1,0 +1,301 @@
+body{
+    background-color: #fdfaf7;
+	margin: 0;
+    padding: 0;
+	width: 100%;
+}
+	
+.header{
+	    padding:30px;
+		text-align: center;
+		background-color: #fdfaf7;
+}
+
+.title{
+	color: #57777e;
+	text-align: center;
+	font-weight: bold;
+	font-size:40px;
+	margin-top:-10px;
+}
+
+
+.nav{
+	margin-top:0px;
+	text-align:center;
+	width:100%;
+	height:2.1vw;
+}
+.nav ul{
+	text-align:center;
+	display:inline-block;
+	list-style: none;
+	padding:0px;
+	margin: 0px;
+}
+.nav ul li{
+	float:left;
+	margin-top:0.35vw;
+}
+
+@media screen and (max-width:10000px){
+.nav ul li a {
+	width:15vw;
+	color:#4f5655;
+	display:block;
+	text-decoration:none;
+	font-size:0.8vw;
+	text-align:center;
+	padding:0.26vw;
+	border-radius:0.53vw;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+}
+
+@media screen and (max-width:700px){
+.nav ul li a {
+    width:20vw;
+	color:#4f5655;
+	display:block;
+	text-decoration:none;
+	font-size:10px;
+	text-align:center;
+	padding:0.26vw;
+	border-radius:0.53vw;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+}
+
+.nav a:hover{
+	background:#fdfaf7;
+}
+
+.nav ul li a:hover {
+	color: #e7b33f;
+}
+
+.nav ul li ul{
+	background:#fdfaf7;
+}
+.nav ul li ul li{
+	float:none;
+}
+.nav ul li ul{
+	display:none;
+}
+.nav ul li:hover ul{
+	display:block;
+}
+
+@media screen and (max-width:10000px){
+.information1{
+    width: 80vw;
+	height:95vh;
+	background-color: #grey;
+	margin-left:10%;
+	margin-top: 12vh;
+	margin-bottom: 200px;
+}
+}
+
+@media screen and (max-width:700px){
+.information1{
+    width: 80vw;
+	height:60vh;
+	background-color: #grey;
+	margin-left:10%;
+	margin-top: 12vh;
+	margin-bottom: 200px;
+}
+}
+
+@media screen and (max-width:1400px){
+.information1{
+    width: 80vw;
+	height:70vh;
+	background-color: #grey;
+	margin-left:10%;
+	margin-top: 12vh;
+	margin-bottom: 200px;
+}
+}
+
+@media screen and (max-width:10000px){
+.face{
+	position:absolute;
+	width:15vw;
+	height:32vh;
+	margin-left:5%;
+	margin-top:15vw;
+	background-color:#white;
+}
+}
+
+
+
+@media screen and (max-width:700px){
+.face{
+	position:absolute;
+	width:15vw;
+	height:32vh;
+	margin-left:5%;
+	margin-top:50%;
+	background-color:#white;
+}
+}
+
+.face img{
+	width:100%;
+}
+
+.text1{
+	position:absolute;
+	width:49vw;
+	height:65vh;
+	margin-left:27%;
+	margin-top:2.5%;
+	background-color:#white;
+}
+
+.intro{
+	width:49vw;
+	background-color:#blue;
+}
+
+@media screen and (max-width:10000px){
+.text2{
+	display:flex;
+	width:49vw;
+	height:40vh;
+    margin-top: -1vw;
+	background-color:#green;
+	border-bottom: 2px solid black ;
+}
+}
+
+@media screen and (max-width:1400px){
+.text2{
+	display:flex;
+	width:49vw;
+	height:25vh;
+    margin-top: -1vw;
+	background-color:#green;
+	border-bottom: 2px solid black ;
+}
+}
+
+@media screen and (max-width:700px){
+.text2{
+	display:flex;
+	width:49vw;
+	height:38vh;
+    margin-top: -1vw;
+	background-color:#green;
+	border-bottom: 2px solid black ;
+}
+}
+
+.int1{
+	position:absolute;
+	line-height:15px;
+	width:25vw;
+	background-color:#yellow;
+}
+
+.int2{
+	position:absolute;
+	width:11vw;
+	padding: 0px;
+	margin-left:26.5vw;
+	margin-top:0;
+	line-height:15px;
+	background-color:#red;
+}
+
+.int3{
+	position:absolute;
+	width:10vw;
+	padding: 0px;
+	margin-left:39vw;
+	margin-top:0;
+	line-height:15px;
+	background-color:#yellow;
+}
+
+.icon{
+	position:absolute;
+	width:49vw;
+	height:6vw;
+	margin-left:%;
+	margin-top:0%;
+	background-color:#blue;
+}
+
+.icon1{
+	position:absolute;
+	width:12%;
+	height:100%;
+	background-color:#black;
+}
+.icon1 img{
+	width:100%;
+}
+
+.icon2{
+	position:absolute;
+	width:12%;
+	height:100%;
+	margin-left:14%;
+	background-color:#black;
+}
+
+.icon2 img{
+	width:100%;
+}
+
+.icon3{
+	position:absolute;
+	width:12%;
+	height:100%;
+	margin-left:28%;
+	background-color:#black;
+}
+
+.icon3 img{
+	width:100%;
+}
+
+.icon4{
+	position:absolute;
+	width:12%;
+	height:100%;
+	margin-left:42%;
+	background-color:#black;
+}
+
+.icon4 img{
+	width:100%;
+}
+
+.icon p {
+	position:absolute;
+	bottom:-1vw;
+	right:0px;
+}
+
+.footer{
+	margin-top: -20vh;
+	background:#504a32;
+	padding:30px;
+	opacity:0.7;
+}
+.footertext{
+	text-align:center;
+}
+.footertext p {
+    color: white;
+    font-size:1vw;
+    margin: 0;
+}
